@@ -20,7 +20,7 @@ http://localhost:8080/swagger-ui.html
 spring:
   influxdb2:
     url: "http://101.132.32.165:8086"
-    token: "tgk01RkCJAhklRaAKbbl3zdGKclUfegdwFK27VsFQ-lGz8pESN7Bt5pLl1CFqIzqYq8TL3b-wgoqlG7WxMWjHA=="
+    token: "token"
     org: "NUAA"
     bucket: "MQTT"
 ```
