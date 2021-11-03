@@ -24,7 +24,7 @@ public class QueryController {
         this.queryDao = queryDao;
     }
 
-    @ApiOperation(value = "简单查询", notes = "查询一条 field 记录")
+    @ApiOperation(value = "查询一条 field 记录", notes = "example: http://localhost:8080/query/MQTT/laptop/used_mem?start=-5m&stop=0m&host=ImCaO%27s%20laptop&topic=mqtt/js")
     @GetMapping("/query/{bucket}/{measurement}/{field}")
     public List<FluxTable> query(@ApiParam(value = "bucket 名", required = true) @PathVariable("bucket") String bucket,
                                  @ApiParam(value = "measurement 名", required = true) @PathVariable("measurement") String measurement,
