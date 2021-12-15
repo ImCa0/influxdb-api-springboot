@@ -3,10 +3,10 @@ server:
 
 spring:
   influxdb2:
-    url: "http://101.132.32.165:8086"
-    token: "tgk01RkCJAhklRaAKbbl3zdGKclUfegdwFK27VsFQ-lGz8pESN7Bt5pLl1CFqIzqYq8TL3b-wgoqlG7WxMWjHA=="
-    org: "NUAA"
-    bucket: "MQTT"
+    url: ENC(BWUNNti9zj4s6ZekTr0fGPC6KGKdzh/Z9wWGHK1oOB8kr4M3jPxRnwEjuxn8xisBik9OA+Sednt13TebnDPtCQ==)
+    token: ENC(1iQvlSb7W50li2p+8AWoPEvJoSUz2G1aG5v1AW1PlBfHc+lhckloD5XoVB+gDHWOIHsQtGvmXKcTZ/yfEJxYS8ZU1SqBrF2EmMQ82S2lA5MTO4Qsq6wOBBEctckxgS6y7N2ZjNPZA1ncMdhBZoYQM/PhOvx69vCCUUzWni2NDz0=)
+    org: NUAA
+    bucket: MQTT
 
 allowed:
    origin: http://101.132.32.165 # prod
