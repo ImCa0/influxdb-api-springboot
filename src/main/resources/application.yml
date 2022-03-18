@@ -9,5 +9,5 @@ spring:
     bucket: MQTT
 
 allowed:
-   origin: http://101.132.32.165 # prod
-#  origin: http://localhost:9527 # dev
+#   origin: http://101.132.32.165 # prod
+  origin: http://localhost:9528 # dev
